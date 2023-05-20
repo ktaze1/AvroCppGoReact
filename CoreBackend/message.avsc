@@ -1,0 +1,10 @@
+{
+ "type": "record",
+  "name": "Message",
+  "fields": [
+    { "name": "type", "type": "int" },
+    { "name": "timestamp", "type": "long" },
+    { "name": "metadata", "type": "string" },
+    { "name": "payload", "type": "string" }
+  ]
+}
